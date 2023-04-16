@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #67b3ff;
+}
+
+.container{
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.board{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    background:---;
+    background-image: url("mole-hidden.png");
+    background-size: cover;
+}
+
+
+#restart {
+    padding: 10px 20px;
+    color: white;
+    background-color: #0080ff;
+    border-color: black;
+    border-radius: 50px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#restart:hover {
+    transform:translateY(-2px);
+}
+
+.mole {
+    background-image: url("mole.png");
+    background-size: cover;
+}
+
+h2 {
+    margin: 10px;
+    color: white;
+    font-weight: 600;
+    font-style: 2em;
+}
